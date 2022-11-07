@@ -1,7 +1,6 @@
-﻿
-#$WorkspaceName = "Prod Model" #Here it is the workspace name! Not the id! 
-#$DatasetName = "Daily Sales" #Also known as database name
-#$TableName = "Brand Security" #Table name in the specified dataset
+﻿$WorkspaceName = "Prod Model" #Here it is the workspace name! Not the id! 
+$DatasetName = "Daily Sales" #Also known as database name
+$TableName = "Brand Security" #Table name in the specified dataset
 
 # Base variables
 $PbiBaseConnection = "powerbi://api.powerbi.com/v1.0/myorg/"
@@ -25,7 +24,6 @@ $TmslScriptOrg =
       }  
     }  
 "@
-
 
   
 $XmlaEndpoint = $PbiBaseConnection + $WorkspaceName
